@@ -1,0 +1,368 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    background-color: whitesmoke;
+}
+.header {
+    padding: 10px ;
+   display: flex;
+   justify-content: space-between;
+
+}
+.header h1{
+    font-size: 40px;
+}
+.header ul{
+    margin-top: 12px;
+    display: flex;
+    gap: 30px;
+    font-size: 28px;
+    list-style: none;
+}
+.lbtn {
+background-color: rgb(38, 52, 38);
+color: white;
+padding: 10px 50px;
+border-radius: 10px;
+border: none;
+margin-top: 12px;
+
+}
+.sbtn {
+    color: black;
+    padding: 10px 50px;
+    border-radius: 10px;
+    border-color: rgb(60, 84, 60);
+    background-color: white;
+    margin-top: 15px;
+}
+.hero{
+    height: 600px;
+   background-image: url(https://img.freepik.com/free-photo/harvesting-wheat-tranquil-meadow-sunset-generated-by-ai_24640-80628.jpg?w=996&t=st=1702208786~exp=1702209386~hmac=cb503706b5d10b919506753a86cafcad205ee24512cf5ca853137545ee74d7e9);
+   background-size: cover;
+   background-repeat: no-repeat;
+   text-align: center
+}
+.hero h1{
+    font-size: 80px;
+    color: white;
+    padding-top: 140px;
+}
+.hero p{
+    margin: 20px 30% ;
+    color: white;
+    font-weight: 600px;
+
+}
+.passion-left , .passion-right{
+    width: 500px;
+
+}
+.passion-parent{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+}
+.passion-left h1{
+    font-size: 65px;
+    color:  rgb(60, 84, 60);
+
+}
+.passion-right img{
+    width: 500px;
+    height: 500px;
+    border-radius: 15px;
+ 
+}
+.passion-right button{
+    position: absolute;
+    bottom: -5px;
+    right: 75px;
+    font-size: 26px;
+    border: none;
+    padding: 30px 100px;
+    border-radius: 28px;
+    box-shadow: 2px 10px 6px rgb(205, 204, 204);
+    background-color: white;
+    
+}
+.passion-right{
+    position: relative;
+}
+.service-title{
+    text-align: center;
+}
+.service-title h1{
+    font-size: 60px;
+    color:  rgb(60, 84, 60);
+}
+.service-title p{
+    margin: 2px 30%;
+
+}
+.service-parent{
+    margin: 10px 50px;
+    padding: 20px 50px;
+    display: grid;
+    grid-template-columns: repeat(4,300px);
+    justify-content: center;
+    gap: 50px;
+    margin: 30px 50px;
+   
+
+}
+.service{
+    padding: 30px;
+    text-align: center;
+    background-color: white;
+    border-radius: 9px;
+    box-shadow: 0px 2px 2px  rgb(177, 176, 176);
+    height: 200px;
+    width: 200px;
+   
+
+}
+/*  */
+
+.service-parent{
+    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(4,300px);
+    justify-content: center;
+    gap: 10px;
+    margin: 30px 50px;
+   
+
+}
+.service1{
+    padding: 20px;
+    text-align: center;
+    background-color: white;
+    border-radius: 9px;
+    box-shadow: 0px 2px 2px  rgb(177, 176, 176);
+    height: 300px;
+    width: 200px;
+   
+
+}
+#image1{
+    width: 200px;
+    border-radius: 10px;
+}
+#image2{
+    width: 200px;
+    border-radius: 10px;
+}
+#image3{
+    width: 200px;
+    border-radius: 10px;
+
+}
+#image4{
+    width: 200px;
+    border-radius: 10px;
+}
+.su{
+    background-image: url(https://www.theindiaforum.in/sites/default/files/field/image/2022/06/21/ramkumar-radhakrishnan-wikimedia-1622193304-1622193304.jpeg);
+   background-size: cover;
+   height: 400px;
+ padding: 10px 30px;
+}
+.su h1{
+    font-size: 60px;
+    color: white;
+    padding-top: 140px;
+}
+.left , .right{
+    width: 500px;
+
+}
+.parent{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+}
+.left h1{
+    font-size: 65px;
+    color:  rgb(60, 84, 60);
+    margin-top: 60px;
+
+}
+.right {
+    width: 450px;
+    height: 600px;
+    border-radius: 15px;
+    background-color:  rgb(60, 84, 60);
+   
+    
+ 
+}
+.right button{
+    position: absolute;
+    bottom: -5px;
+    right: 75px;
+    font-size: 26px;
+    border: none;
+    padding: 30px 100px;
+    border-radius: 28px;
+    box-shadow: 2px 10px 6px rgb(205, 204, 204);
+    background-color:  rgb(60, 84, 60);
+    
+}
+.right1{
+    display: flex;
+    color: white;
+    gap: 30px;
+    margin: 40px 60px;
+    margin-top: 40px;
+   
+}
+.right2{
+    display: flex;
+    color: white;
+    gap: 30px;
+    margin: 30px 40px;
+}
+.right3{
+    display: flex;
+    color: white;
+    gap: 30px;
+    margin: 30px 40px;
+}
+.right4{
+    display: flex;
+    color: white;
+    gap: 30px;
+    margin: 30px 40px;
+}
+
+
+.right p{
+    margin-top: 10px;
+}
+.qor{
+    margin-left: 30px;
+    font-size: 10px;
+}
+.qor h1{
+    font-size: 30px;
+margin-top: 20px;
+}
+.dhex1{
+   display: flex;
+    background-color: #204E51;
+    color: white;
+    width: 80%;
+    height: 300px;
+    margin: 40px 95px;
+    border-radius: 30px;
+    justify-content: center;
+    text-align: center;
+}
+.dhex1 img{
+    display: flex;
+    width: 200px;
+    height: 200px;
+    border-radius: 40px;
+    padding-left:80px ;
+    margin-top: 30px;
+}
+.body1 h1{
+    font-size: 60px;
+    color:  rgb(60, 84, 60);
+    text-align: center;
+    margin: 10px 200px;
+}
+.body1 p{
+    margin: 2px 30%;
+    text-align: center;
+
+}
+.divhp p{
+    margin: 20px 30% ;
+    color: white;
+    font-weight: 600px;
+    margin-left:40px ;
+    margin-top: 60px;
+
+}
+.body1 p{
+    color:  rgb(60, 84, 60);
+}
+.divhp{
+    margin-right:80px ;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.service-parent2{
+    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(4,300px);
+    justify-content: center;
+    gap: 10px;
+    margin: 30px 50px;
+   
+
+}
+.service2{
+    padding: 20px;
+    text-align: center;
+    margin-left:80px ;
+   
+    height: 300px;
+    width: 200px;
+   
+
+}
+#image11{
+    width: 250px;
+    border-radius: 10px;
+}
+#image22{
+    width: 250px;
+    border-radius: 10px;
+}
+#image33{
+    width: 250px;
+    border-radius: 10px;
+
+}
+.service-parent2 h1{
+    font-size: 15px;
+    margin-top: 12px;
+}
+.service2 button{
+    color: #204E51;
+    border: none;
+    margin-top: 10px;
+}
+.container{
+    background-color: #204E51;
+    width: 100%;
+    height: 350px;
+    color: white;
+    display: flex;
+    gap: 80px;
+   padding: 40px;
+   margin-top: 200px;
+
+}
+.container ul{
+    list-style: none;
+}
+.qora2{
+    margin-top: 90px;
+}
+.qora3{
+    margin-top: 90px;
+}
+.qora4{
+    margin-top: 90px;
+}
+.img9{
+    background-color: azure;
+}
+
